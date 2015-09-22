@@ -1,7 +1,7 @@
 {
   "name": "ember-deploy-alioss",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember-Deploy assets-adapter for Aliyun OSS",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -41,7 +41,13 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.3"
+    "ember-cli-babel": "^5.1.3",
+    "chalk": "^0.5.1",
+    "core-object": "0.0.2",
+    "aliyun-sdk": "^1.6.0",
+    "silent-error": "^1.0.0",
+    "walk": "^2.3.9",
+    "mime-types": "^2.1.7" 
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
