@@ -46,7 +46,7 @@
     "mocha": "^2.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
     "ember-cli",
     "ember-deploy",
     "deploy",
