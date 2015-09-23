@@ -5,6 +5,7 @@ This is the alioss-adapter implementation to use [阿里云对象存储 aliyun o
 [ember-deploy](https://github.com/levelbossmike/ember-deploy).
 
 ## Installation
+You also need dependencies `ember-deploy` and an index adapter such as `ember-deploy-redis` or `ember-deploy-s3-index`, etc.
 ```sh
 ember install ember-deploy-alisso
 ```
