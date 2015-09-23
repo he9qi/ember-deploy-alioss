@@ -11,11 +11,14 @@
     "start": "ember server",
     "test": "./node_modules/mocha/bin/mocha node_tests/**/*-test.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/he9qi/ember-deploy-alioss.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Qi He <qhe@heyook.com> (https://github.com/he9qi)",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
@@ -44,6 +47,12 @@
   },
   "keywords": [
     "ember-addon"
+    "ember-cli",
+    "ember-deploy",
+    "deploy",
+    "aliyun",
+    "oss",
+    "aliyun oss"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.3",
