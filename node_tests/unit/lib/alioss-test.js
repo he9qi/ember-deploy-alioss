@@ -1,9 +1,11 @@
-var chai           = require('chai');
+"use strict";
+
+var chai = require('chai');
 var chaiAsPromised = require('chai-as-promised');
-var MockAliOSS     = require('../../helpers/mock-alioss');
-var MockUI         = require('ember-cli/tests/helpers/mock-ui');
-var AliOSSAdapter  = require('../../../lib/alioss');
-var chalk          = require('chalk');
+var MockAliOSS = require('../../helpers/mock-alioss');
+var MockUI = require('ember-cli/tests/helpers/mock-ui');
+var AliOSSAdapter = require('../../../lib/alioss');
+var chalk = require('chalk');
 
 chai.use(chaiAsPromised);
 
@@ -11,7 +13,7 @@ var aliOSSAdapter;
 var expect = chai.expect;
 
 var getLastUILine = function(output) {
-  var uiOutputByLine = output.split('\n');
+  var uiOutputByLine = output.split("\n");
   return uiOutputByLine[uiOutputByLine.length - 2];
 };
 
