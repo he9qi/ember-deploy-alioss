@@ -1,4 +1,4 @@
-# Ember-deploy-alioss
+# Ember Deploy Alioss
 [![Build Status](https://travis-ci.org/he9qi/ember-deploy-alioss.svg?branch=master)](https://travis-ci.org/he9qi/ember-deploy-alioss)
 
 This is the alioss-adapter implementation to use [阿里云对象存储 aliyun oss](http://oss.aliyun.com/) with
