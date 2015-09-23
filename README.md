@@ -1,4 +1,4 @@
-# Ember-deploy-alioss
+# Ember Deploy Alioss
 [![Build Status](https://travis-ci.org/he9qi/ember-deploy-alioss.svg?branch=master)](https://travis-ci.org/he9qi/ember-deploy-alioss)
 
 This is the alioss-adapter implementation to use [阿里云对象存储 aliyun oss](http://oss.aliyun.com/) with
@@ -12,7 +12,8 @@ ember install ember-deploy-alisso
 
 ## Aliyun OSS Policy Requirements
 Make sure to enable your bucket's ACL to public read.
-![Alisso ACL](https://cloud.githubusercontent.com/assets/5576425/10038074/0b65078a-6174-11e5-90c6-dbe878c45a9d.jpg)
+<br>
+<img src="https://cloud.githubusercontent.com/assets/5576425/10038074/0b65078a-6174-11e5-90c6-dbe878c45a9d.jpg" width="640">
 
 
 ## Setup
