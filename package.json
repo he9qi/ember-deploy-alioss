@@ -1,6 +1,6 @@
 {
   "name": "ember-deploy-alioss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ember-Deploy assets-adapter for Aliyun OSS",
   "directories": {
     "doc": "doc",
