@@ -15,7 +15,7 @@
 engines:
 # to turn on an engine, add it here and set enabled to `true`
 # to turn off an engine, set enabled to `false` or remove it
-  rubocop:
+  eslint:
     enabled: true
 
 # Engines can analyze files and report issues on them, but you can separately
@@ -29,7 +29,8 @@ engines:
 
 ratings:
   paths:
-  - lib/**
+  - lib/**.js
+  - node_tests/**.js
 
 # You can globally exclude files from being analyzed by any engine using the
 # exclude_paths key.
@@ -37,3 +38,4 @@ ratings:
 exclude_paths:
 - config/**/*
 - vendor/**/*
+- test/**/*
