@@ -4,7 +4,11 @@
 [![Ember Observer](http://emberobserver.com/badges/ember-deploy-alioss.svg)](http://emberobserver.com/addons/ember-deploy-alioss)
 
 This is the alioss-adapter implementation to use [阿里云对象存储 aliyun oss](http://oss.aliyun.com/) with
-[ember-deploy](https://github.com/levelbossmike/ember-deploy).
+[ember-deploy](https://github.com/levelbossmike/ember-deploy) 
+
+## Version
+
+This plugin is for Ember Cli Deploy version v0.4.x. If you need version v0.5.x. Please checkout [https://github.com/he9qi/ember-cli-deploy-alioss](https://github.com/he9qi/ember-cli-deploy-alioss).
 
 ## Installation
 You also need dependencies `ember-deploy` and an index adapter such as `ember-deploy-redis` or `ember-deploy-s3-index`, etc.
